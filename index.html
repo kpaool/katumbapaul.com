@@ -7,6 +7,10 @@
     <meta name="description" content="My home page">
     <title>Katumba Jonathan Paul</title>
       
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" 
@@ -15,27 +19,56 @@
 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="aboutme.html"> About me</a></li>
-            <li><a href="contacts.html"> Contacts</a></li>
-            <li><a href="projects.html"> Projects</a></li>
-            <li><a href="skills.html"> Skills</a></li>
-            <li><a href="cv.html"> CV</a></li>
-        </ul>
-    </nav>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="rounded-circle" src="img/caton.jpg" alt="Logo" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <section id="my-profile" class="center">       
+      <div id="intro" class="container-fluid h-100">
+        <div class="row p-5 align-items-center">
+            <div class="col-12 col-md-4 offset-md-3 mx-auto">
+                <img class="rounded-circle img-fluid shadow-sm" src="img/paul1.jpeg"  alt="Katumba Jonathan Paul" />
+            </div>
+            <div class="col-12 col-md-6">             
+                <h1 class="h1 mt-2">Katumba Jonathan Paul</h1>
+                <h3 class="h3 fst-italic text-secondary mb-2">Entreprenuer and developer</h3>
+                <p>I'm a tech ethusiast and love discovering new things and cooking nice <br/>
+                    I've also started a couple of businesses some successful some learning
+                </p>
+            </div>
+        </div>
+      </div>
     
-        <img class="profile-pic full-circle " src="img/paul1.jpeg" alt="Katumba Jonathan Paul" />
-
-        <h1>Katumba Jonathan Paul</h1>
-        <h3>Entreprenuer and developer</h3>
-        <p>I'm a tech ethusiast and love discovering new things and cooking nice <br/>
-            I've also started a couple of businesses some successful some learning
-        </p>
-    </section>
+    
+        
 </body>
 </html>
