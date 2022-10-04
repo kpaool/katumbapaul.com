@@ -51,20 +51,38 @@
       </nav>
 
 
-      <form
-  action="https://formspree.io/f/mbjbyovw"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+      <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <form
+                action="https://formspree.io/f/mbjbyovw"
+                method="POST"
+                >
+                    Your mest email:
+                    <input class="form-control m-2" type="email" name="email">
+                    Your full name:
+                    <input class="form-control m-2" type="text" name="full-name">
+                    Are you facing food issues while at Nile house:
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          YES
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          NO
+                        </label>
+                      </div>
+                    Your message:
+                    <textarea class="form-control m-2" name="message"></textarea>
+                <!-- your other form fields go here -->
+                <button class="btn btn-success btn-sm" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+      </div>
+      
 </body>
 </html>
