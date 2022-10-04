@@ -10,12 +10,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" 
     type="image/jpg" 
     href="img/caton.jpg">
 </head>
 <body>
+  <script>
+    AOS.init();
+  </script>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark  sticky-top pos">
         <div class="container">
           <a class="navbar-brand" href="./">
@@ -56,7 +61,7 @@
           </div>
           <div class="mt-2 d-flex justify-content-center flex-row flex-wrap">
 
-            <div class="card m-2" style="width: 18rem;">
+            <div class="card m-2"  data-aos="fade-up" style="width: 18rem;">
               <img src="img/minute5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Minute5</h5>
@@ -66,7 +71,7 @@
               </div>
             </div>
 
-            <div class="card m-2" style="width: 18rem;">
+            <div class="card m-2"  data-aos="fade-up" style="width: 18rem;">
               <img src="img/webfarm.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Webfarm</h5>
@@ -76,7 +81,7 @@
               </div>
             </div>
 
-            <div class="card m-2" style="width: 18rem;">
+            <div class="card m-2"  data-aos="fade-up" style="width: 18rem;">
               <img src="img/vote.webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">E-vote</h5>
